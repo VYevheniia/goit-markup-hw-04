@@ -226,6 +226,7 @@ ul {
   line-height: 1.14;
   text-transform: uppercase;
   width: 270px;
+  border-radius: 4px;
 
   margin-bottom: 10px;
 }
@@ -397,10 +398,10 @@ ul {
   fill: var(--color-icons);
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  padding: 16px 32px;
 }
 
-.clients-link:hover {
+.clients-link:hover,
+.clients-link:focus {
   fill: var(--color-accent);
   border-color: var(--color-accent);
 }
@@ -562,4 +563,9 @@ ul {
   border: 1px solid #eeeeee;
   border-top: none;
   padding: 20px 24px;
+}
+
+.portfolio-card:hover,
+.portfolio-card:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
